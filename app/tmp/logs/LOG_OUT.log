@@ -1,0 +1,204 @@
+2021-06-21 18:58:03 LOG_OUT: Array
+(
+    [Task] => Array
+        (
+            [id] => 10
+            [name] => test
+            [body] => namnam
+            [status] => 0
+            [due_date] => 
+            [created] => 2021-05-26 21:36:11
+            [modified] => 2021-05-26 21:36:11
+        )
+
+    [Note] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [task_id] => 10
+                    [body] => nan
+                    [created] => 2021-05-26 21:36:34
+                    [modified] => 2021-05-26 21:36:34
+                )
+
+        )
+
+)
+
+2021-06-21 18:58:03 LOG_OUT: Array
+(
+    [Task] => Array
+        (
+            [id] => 12
+            [name] => テストマソ
+            [body] => 写像
+            [status] => 0
+            [due_date] => 
+            [created] => 2021-05-26 21:37:50
+            [modified] => 2021-05-26 21:37:50
+        )
+
+    [Note] => Array
+        (
+        )
+
+)
+
+2021-06-21 18:58:03 LOG_OUT: Array
+(
+    [Task] => Array
+        (
+            [id] => 13
+            [name] => テストマソ
+            [body] => ggg
+            [status] => 0
+            [due_date] => 
+            [created] => 2021-06-21 18:29:46
+            [modified] => 2021-06-21 18:29:46
+        )
+
+    [Note] => Array
+        (
+        )
+
+)
+
+2021-06-21 19:29:31 LOG_OUT: Array
+(
+    [0] => Array
+        (
+            [Task] => Array
+                (
+                    [id] => 12
+                    [name] => テストマソ
+                    [body] => 写像
+                    [status] => 0
+                    [due_date] => 
+                    [created] => 2021-05-26 21:37:50
+                    [modified] => 2021-05-26 21:37:50
+                )
+
+            [Note] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 12
+                            [task_id] => 12
+                            [body] => test
+                            [created] => 2021-06-21 19:20:15
+                            [modified] => 2021-06-21 19:20:15
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 9
+                            [task_id] => 12
+                            [body] => なんだろう
+                            [created] => 2021-06-21 19:18:55
+                            [modified] => 2021-06-21 19:18:55
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Task] => Array
+                (
+                    [id] => 13
+                    [name] => テストマソ
+                    [body] => ggg
+                    [status] => 0
+                    [due_date] => 
+                    [created] => 2021-06-21 18:29:46
+                    [modified] => 2021-06-21 18:29:46
+                )
+
+            [Note] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 11
+                            [task_id] => 13
+                            [body] => nan
+                            [created] => 2021-06-21 19:19:51
+                            [modified] => 2021-06-21 19:19:51
+                        )
+
+                )
+
+        )
+
+)
+
+2021-06-21 19:29:31 LOG_OUT: Array
+(
+    [0] => Array
+        (
+            [Task] => Array
+                (
+                    [id] => 12
+                    [name] => テストマソ
+                    [body] => 写像
+                    [status] => 0
+                    [due_date] => 
+                    [created] => 2021-05-26 21:37:50
+                    [modified] => 2021-05-26 21:37:50
+                )
+
+            [Note] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 12
+                            [task_id] => 12
+                            [body] => test
+                            [created] => 2021-06-21 19:20:15
+                            [modified] => 2021-06-21 19:20:15
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 9
+                            [task_id] => 12
+                            [body] => なんだろう
+                            [created] => 2021-06-21 19:18:55
+                            [modified] => 2021-06-21 19:18:55
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Task] => Array
+                (
+                    [id] => 13
+                    [name] => テストマソ
+                    [body] => ggg
+                    [status] => 0
+                    [due_date] => 
+                    [created] => 2021-06-21 18:29:46
+                    [modified] => 2021-06-21 18:29:46
+                )
+
+            [Note] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 11
+                            [task_id] => 13
+                            [body] => nan
+                            [created] => 2021-06-21 19:19:51
+                            [modified] => 2021-06-21 19:19:51
+                        )
+
+                )
+
+        )
+
+)
+
