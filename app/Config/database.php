@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
     'host' => 'db',
     'login' => 'root',
     'password' => 'root_password',
-    'database' => 'blog_tutorial',
+    'database' => 'cakephp_db',
     'prefix' => '',
     'encoding' => 'utf8',
   );
