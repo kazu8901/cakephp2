@@ -1591,3 +1591,790 @@ Stack Trace:
 #10 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
 #11 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2021-06-25 12:33:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'blog_tutorial\'',
+  'enabled' => true,
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-25 12:39:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'blog_tutorial\'',
+  'enabled' => true,
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-25 12:43:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'blog_tutorial\'',
+  'enabled' => true,
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-25 12:45:17 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#1 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#2 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#3 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#4 [internal function]: TasksController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-06-25 15:03:16 Error: [MissingControllerException] Controller class EmailController could not be found.
+Exception Attributes: array (
+  'class' => 'EmailController',
+  'plugin' => NULL,
+)
+Request URL: /Email/index
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-06-25 15:04:09 Error: [MissingControllerException] Controller class EmailController could not be found.
+Exception Attributes: array (
+  'class' => 'EmailController',
+  'plugin' => NULL,
+)
+Request URL: /Email/index
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-06-25 15:10:48 Error: [SocketException] 
+Request URL: /Emails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/EmailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: EmailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(EmailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:12:03 Error: [SocketException] 
+Request URL: /Emails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/EmailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: EmailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(EmailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:12:05 Error: [SocketException] 
+Request URL: /Emails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/EmailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: EmailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(EmailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:14:52 Error: [SocketException] 
+Request URL: /Emails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/EmailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: EmailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(EmailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:14:54 Error: [SocketException] 
+Request URL: /Emails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/EmailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: EmailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(EmailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:19:09 Error: [SocketException] 
+Request URL: /Emails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/EmailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: EmailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(EmailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:21:57 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:23:34 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:27:57 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:27:58 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:30:36 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:30:47 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:36:26 Error: [SocketException] SMTP timeout.
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/SmtpTransport.php(102): SmtpTransport->_smtpSend(NULL, '220')
+#1 /var/www/html/lib/Cake/Network/Email/SmtpTransport.php(59): SmtpTransport->_connect()
+#2 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): SmtpTransport->send(Object(CakeEmail))
+#3 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#4 [internal function]: MailsController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-06-25 15:36:38 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:41:09 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:42:07 Error: [SocketException] Invalid email: "you@localhost"
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(594): CakeEmail->_setEmail('_from', 'you@localhost', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(366): CakeEmail->_setEmailSingle('_from', 'you@localhost', NULL, 'From requires o...')
+#2 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1212): CakeEmail->from('you@localhost')
+#3 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1096): CakeEmail->_applyConfig('default')
+#4 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(347): CakeEmail->config('default')
+#5 /var/www/html/app/Controller/MailsController.php(8): CakeEmail->__construct('default')
+#6 [internal function]: MailsController->index()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2021-06-25 15:43:45 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:44:22 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:44:32 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:44:34 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:45:14 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:46:18 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:46:40 Error: [SocketException] Invalid email: "site@localhost"
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(594): CakeEmail->_setEmail('_from', Array, NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(366): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1212): CakeEmail->from(Array)
+#3 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1096): CakeEmail->_applyConfig('smtp')
+#4 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(347): CakeEmail->config('smtp')
+#5 /var/www/html/app/Controller/MailsController.php(8): CakeEmail->__construct('smtp')
+#6 [internal function]: MailsController->index()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2021-06-25 15:47:12 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:47:18 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 15:59:30 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in [/var/www/html/app/Config/email.php, line 95]
+2021-06-25 15:59:30 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION)
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 95, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 95, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-06-25 16:00:19 Error: [SocketException] You need to specify at least one destination for to, cc or bcc.
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/app/Controller/MailsController.php(29): CakeEmail->send('Hi,, Your Passw...')
+#1 [internal function]: MailsController->index()
+#2 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 16:01:52 Error: [SocketException] SMTP Error: 535 5.7.8  https://support.google.com/mail/?p=BadCredentials y8sm5087334pfe.162 - gsmtp
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/SmtpTransport.php(144): SmtpTransport->_smtpSend('dGlsbHdoZW44OTA...', '235')
+#1 /var/www/html/lib/Cake/Network/Email/SmtpTransport.php(60): SmtpTransport->_auth()
+#2 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): SmtpTransport->send(Object(CakeEmail))
+#3 /var/www/html/app/Controller/MailsController.php(29): CakeEmail->send('Hi,, Your Passw...')
+#4 [internal function]: MailsController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-06-25 16:02:56 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 16:03:47 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 16:33:53 Error: [SocketException] 
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/MailTransport.php(51): MailTransport->_mail('o.76.hamada.kaz...', '=?UTF-8?B?44GT4...', '\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...', 'From: o.76.hama...', NULL)
+#1 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(1121): MailTransport->send(Object(CakeEmail))
+#2 /var/www/html/app/Controller/MailsController.php(16): CakeEmail->send('\xE3\x81\x93\xE3\x82\x8C\xE3\x81\xAF\xE3\x83\x86\xE3\x82\xB9...')
+#3 [internal function]: MailsController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2021-06-25 20:10:52 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/var/www/html/app/Controller/MailsController.php, line 52]
+2021-06-25 20:10:52 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /Mails/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 52, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 52, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-06-25 20:16:12 Error: [MissingActionException] Action MailsController::create() could not be found.
+Exception Attributes: array (
+  'controller' => 'MailsController',
+  'action' => 'create',
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-06-25 20:19:33 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address' cannot be null
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/html/app/Controller/MailsController.php(47): Model->save(Array)
+#5 [internal function]: MailsController->create()
+#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-06-25 20:21:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address' cannot be null
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/html/app/Controller/MailsController.php(47): Model->save(Array)
+#5 [internal function]: MailsController->create()
+#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-06-25 20:25:39 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in [/var/www/html/app/Controller/MailsController.php, line 45]
+2021-06-25 20:25:39 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 45, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 45, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-06-25 20:25:57 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/html/app/Controller/MailsController.php, line 44]
+2021-06-25 20:25:57 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 44, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 44, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-06-25 20:27:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address' cannot be null
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/html/app/Controller/MailsController.php(48): Model->save(Array)
+#5 [internal function]: MailsController->create()
+#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-06-25 20:27:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address' cannot be null
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/html/app/Controller/MailsController.php(48): Model->save(Array)
+#5 [internal function]: MailsController->create()
+#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-06-25 20:28:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'from' doesn't have a default value
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/html/app/Controller/MailsController.php(48): Model->save(Array)
+#5 [internal function]: MailsController->create()
+#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2021-06-25 20:39:58 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:40:47 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:43:17 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:43:36 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:44:48 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:45:38 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:45:55 Error: [MissingActionException] Action Tasks::...() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => '...',
+)
+Request URL: /tasks/.../Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:46:06 Error: [MissingActionException] Action Tasks::...() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => '...',
+)
+Request URL: /tasks/.../Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:46:09 Error: [MissingActionException] Action Tasks::...() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => '...',
+)
+Request URL: /tasks/.../Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:46:14 Error: [MissingActionException] Action Tasks::Mails() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'Mails',
+)
+Request URL: /tasks/Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:46:51 Error: [MissingActionException] Action Tasks::app() could not be found.
+Exception Attributes: array (
+  'controller' => 'Tasks',
+  'action' => 'app',
+)
+Request URL: /tasks/app/View/Mails/index.ctp
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-06-25 20:49:41 Error: [MissingActionException] Action MailsController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'MailsController',
+  'action' => 'index.ctp',
+)
+Request URL: /Mails/index.ctp
+Stack Trace:
+#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-06-25 20:49:54 Error: [MissingActionException] Action MailsController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'MailsController',
+  'action' => 'index.ctp',
+)
+Request URL: /Mails/index.ctp
+Stack Trace:
+#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-06-25 20:50:53 Error: [MissingActionException] Action MailsController::cdreate() could not be found.
+Exception Attributes: array (
+  'controller' => 'MailsController',
+  'action' => 'cdreate',
+)
+Request URL: /Mails/cdreate
+Stack Trace:
+#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-06-25 20:58:46 Error: [SocketException] Invalid email: "e"
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Network/Email/CakeEmail.php(440): CakeEmail->_setEmail('_to', 'e', NULL)
+#1 /var/www/html/app/Controller/MailsController.php(58): CakeEmail->to('e')
+#2 [internal function]: MailsController->create()
+#3 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MailsController), Array)
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}

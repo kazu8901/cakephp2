@@ -28,6 +28,13 @@ services:
       MYSQL_USER: root
       TZ: "Asia/Tokyo"
 
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025" 
+      - "1025:1025"
+
 volumes:
   db-data:
     external: false
+
