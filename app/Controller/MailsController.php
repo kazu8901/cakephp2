@@ -20,28 +20,35 @@ class MailsController extends AppController {
 
   public function index(){
 
-    if($this->request->is('post')) {
-      $data = array(
-        'address' => $this->request->data['address']
-      );
-      $id = $this->Mail->save($data);
+    $mails = $this->request->data;
+      // $email = new CakeEmail('smtp');//この引数はemail.phpの変数を入れます。今回はsmtpを使用します。
+      $email = new CakeEmail('smtp');
+      $email->from('test@test.com');
+      $email->to('mail@test.com');
+      $email->subject('sub');
+      $email->template('thanks', 'sample_layout');
+      $email->emailFormat('html');
+      $email->viewVars(array('user' => '鈴木'));
 
-
-    }
-    if($this->request->is('post')) {
-      if(isset($this->request->data['Mail']['address'])) {
-          $email = new CakeEmail('smtp');//この引数はemail.phpの変数を入れます。今回はsmtpを使用します。
-          $email->to($this->request->data['Mail']['address']) //フォームに入力したメールアドレス
-                ->subject('title')
-                ->send('mailbody');
-      }
-    }
+      $messages = $email->send();
+      $this->set('messages', $messages);
+    // if($this->request->is('post')) {
+    //   if(isset($this->request->data['Mail']['address'])) {
+    //       $email = new CakeEmail('smtp');//この引数はemail.phpの変数を入れます。今回はsmtpを使用します。
+    //       $email->to($this->request->data['Mail']['address']) //フォームに入力したメールアドレス
+    //             ->subject('title')
+    //             ->send('mailbody');
+    //   }
+    // }
   }
 
   public function create() {
     if($this->request->is('post')) {
       $data = array(
         'address' => $this->request->data['Mail']['address'],
+        'subject' => $this->request->data['Mail']['subject'],
+        'message' => $this->request->data['Mail']['message'],
+        'file' => $this->request->data['Mail']['file']['name'],
       );
       // $this->log($this->request->data, "LOG_OUT");
 
@@ -54,13 +61,17 @@ class MailsController extends AppController {
     }
 
     if(isset($this->request->data['Mail']['address'])) {
+      $mails = $this->request->data;
       $email = new CakeEmail('smtp');//この引数はemail.phpの変数を入れます。今回はsmtpを使用します。
-      $email->to($this->request->data['Mail']['address']) //フォームに入力したメールアドレス
-            ->subject('できたよ〜')
-            ->send('やったぜ');
+      $email->to($mails['Mail']['address']) //フォームに入力したメールアドレス
+            // ->attachments(array('test.png' => APP .'webroot/img/cake.icon.png'))
+            ->attachments([$mails['Mail']['file']['name'] => $mails['Mail']['file']['tmp_name'],])
+            ->subject($mails['Mail']['subject'])
+            ->send($mails['Mail']['message']);
       $this->Session->setFlash('メールを送信しました');
       $this->redirect('/Tasks/index');
     }
+    // $this->log($this->request->data, "LOG_OUT");
   }
 
   // public function index($receiver = null, $name = null, $pass = null) {

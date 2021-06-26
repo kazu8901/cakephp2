@@ -1,8 +1,59 @@
-2021-06-25 20:27:51 LOG_OUT: Array
+2021-06-26 19:48:37 LOG_OUT: Array
 (
     [Mail] => Array
         (
             [address] => test@test.com
+            [subject] => mu
+            [message] => うわあああ
+            [file] => Array
+                (
+                    [name] => adidas_FV4083.jpg
+                    [type] => image/jpeg
+                    [tmp_name] => /tmp/phpXOMndC
+                    [error] => 0
+                    [size] => 62463
+                )
+
+        )
+
+)
+
+2021-06-26 19:49:40 LOG_OUT: Array
+(
+    [Mail] => Array
+        (
+            [address] => test@test.com
+            [subject] => ぬぬぬ
+            [message] => うわあああ
+            [file] => Array
+                (
+                    [name] => 
+                    [type] => 
+                    [tmp_name] => 
+                    [error] => 4
+                    [size] => 0
+                )
+
+        )
+
+)
+
+2021-06-26 19:52:11 LOG_OUT: Array
+(
+    [Mail] => Array
+        (
+            [address] => test@test.com
+            [subject] => mu
+            [message] => うわあああ
+            [file] => Array
+                (
+                    [name] => 109e1a4ee9e9862c64dae79c45dc363f.jpg
+                    [type] => image/jpeg
+                    [tmp_name] => /tmp/php0hpUf0
+                    [error] => 0
+                    [size] => 233073
+                )
+
         )
 
 )
