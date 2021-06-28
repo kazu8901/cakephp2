@@ -21,4 +21,6 @@
 <?php echo $this->Paginator->numbers();?><br/>
 <?php echo $this->Paginator->next('次へ');?><br/>
 
+<?php echo $this->Html->link('メール送信フォーム', '/Mails/create');?>
+
 <?php echo $this->Test->cake();?>

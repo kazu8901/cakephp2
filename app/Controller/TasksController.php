@@ -18,8 +18,8 @@ class TasksController extends AppController {
 
   public function index() {
 
-    $message = $this->Test->hello();
-    $this->Session->setFlash($message);
+    // $message = $this->Test->hello();
+    // $this->Session->setFlash($message);
     $this->Task->sayHello();
 
     // データをモデルから取得してビューへ渡す
