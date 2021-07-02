@@ -1,1593 +1,776 @@
-2021-05-16 12:17:14 Error: [MissingPluginException] Plugin DebugKit could not be found.
+2021-06-29 20:12:53 Error: Testing LogError() basic function
+2021-06-29 20:12:53 Error: Testing with multi-line string
+2021-06-30 16:16:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:17:50 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:18:01 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:20:59 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:22:50 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:26:04 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:26:06 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:26:06 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:26:48 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:27:36 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:28:50 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:32:47 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-16 12:35:40 Error: [MissingPluginException] Plugin DebugKit could not be found.
-Exception Attributes: array (
-  'plugin' => 'DebugKit',
-)
-Request URL: /
-Stack Trace:
-#0 /var/www/html/lib/Cake/Core/App.php(365): CakePlugin::path('DebugKit')
-#1 /var/www/html/lib/Cake/Core/App.php(226): App::pluginPath('DebugKit')
-#2 /var/www/html/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'DebugKit')
-#3 [internal function]: App::load('ToolbarComponen...')
-#4 [internal function]: spl_autoload_call('ToolbarComponen...')
-#5 /var/www/html/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
-#6 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-22 14:18:34 Error: [MissingControllerException] Controller class TopicController could not be found.
-Exception Attributes: array (
-  'class' => 'TopicController',
-  'plugin' => NULL,
-)
-Request URL: /topic/view/1
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-05-22 14:42:37 Error: [MissingControllerException] Controller class Samp;Controller could not be found.
-Exception Attributes: array (
-  'class' => 'Samp;Controller',
-  'plugin' => NULL,
-)
-Request URL: /samp;
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-05-22 14:42:58 Error: [MissingControllerException] Controller class SampleController could not be found.
-Exception Attributes: array (
-  'class' => 'SampleController',
-  'plugin' => NULL,
-)
-Request URL: /sample/Tasks/index
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-05-22 15:09:56 Error: [MissingViewException] View file "/var/www/html/app/View/Tasks/index.ctp" is missing.
-Exception Attributes: array (
-  'file' => '/var/www/html/app/View/Tasks/index.ctp',
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
 )
 Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/lib/Cake/View/View.php(463): View->_getViewFileName('index')
-#1 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
-#2 /var/www/html/app/Controller/TasksController.php(13): Controller->render('index')
-#3 [internal function]: TasksController->index()
-#4 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#7 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#8 {main}
-2021-05-22 22:14:40 Error: Fatal Error (4): syntax error, unexpected '>' in [/var/www/html/app/View/Tasks/index.ctp, line 2]
-2021-05-22 22:14:40 Error: [FatalErrorException] syntax error, unexpected '>'
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:19:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
 Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 2)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 2, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 2, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-05-22 22:16:16 Error: [MissingControllerException] Controller class SampleController could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:31:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'class' => 'SampleController',
-  'plugin' => NULL,
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
 )
-Request URL: /sample/Tasks/index
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-05-23 16:33:03 Error: [MissingActionException] Action Tasks::Tasks() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Tasks',
-)
-Request URL: /tasks/Tasks/view1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:33:07 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:39:31 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:41:27 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:42:03 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:42:21 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:42:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
-#5 /var/www/html/app/Controller/TasksController.php(25): Model->saveField('status', 1)
-#6 [internal function]: TasksController->Task('done1')
-#7 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#10 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#11 {main}
-2021-05-23 16:42:59 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:43:25 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:43:28 Error: [MissingActionException] Action Tasks::Task() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'Task',
-)
-Request URL: /tasks/Task/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:43:56 Error: [MissingActionException] Action Tasks::done1() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'done1',
-)
-Request URL: /Tasks/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 16:44:46 Error: [MissingActionException] Action Tasks::done1() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'done1',
-)
-Request URL: /Tasks/done1
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-05-23 17:07:33 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/html/app/Controller/TasksController.php, line 35]
-2021-05-23 17:07:33 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 35)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 35, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 35, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-05-23 17:07:58 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/app/Controller/TasksController.php(38): Model->save(Array)
-#5 [internal function]: TasksController->create()
-#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#10 {main}
-2021-05-23 17:09:16 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/app/Controller/TasksController.php(38): Model->save(Array)
-#5 [internal function]: TasksController->create()
-#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#10 {main}
-2021-05-23 17:11:37 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/app/Controller/TasksController.php(38): Model->save(Array)
-#5 [internal function]: TasksController->create()
-#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#10 {main}
-2021-05-23 17:13:54 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/app/Controller/TasksController.php(38): Model->save(Array)
-#5 [internal function]: TasksController->create()
-#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#10 {main}
-2021-05-23 17:13:59 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/app/Controller/TasksController.php(38): Model->save(Array)
-#5 [internal function]: TasksController->create()
-#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#10 {main}
-2021-05-23 17:14:03 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(AppModel), Array, Array)
-#4 /var/www/html/app/Controller/TasksController.php(38): Model->save(Array)
-#5 [internal function]: TasksController->create()
-#6 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#9 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#10 {main}
-2021-05-23 17:17:52 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/html/app/Controller/TasksController.php, line 46]
-2021-05-23 17:17:52 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
 Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 46)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 46, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 46, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-05-24 22:31:45 Error: Fatal Error (64): Cannot redeclare class Topic in [/var/www/html/app/Model/Task.php, line 17]
-2021-05-24 22:31:45 Error: [FatalErrorException] Cannot redeclare class Topic
-Request URL: /Tasks/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/a...', 17)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/a...', 17, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/a...', 17, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-05-26 21:18:42 Error: [MissingActionException] Action NotesController::create() could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:33:34 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'controller' => 'NotesController',
-  'action' => 'create',
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
 )
-Request URL: /Notes/create
+Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2021-05-26 21:28:58 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'task_id' doesn't have a default value
-Request URL: /Notes/create
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bl...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bl...')
-#3 /var/www/html/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Note), Array, Array)
-#4 /var/www/html/lib/Cake/Controller/Scaffold.php(243): Model->save(Array)
-#5 /var/www/html/lib/Cake/Controller/Scaffold.php(391): Scaffold->_scaffoldSave(Object(CakeRequest), 'add')
-#6 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#7 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(NotesController), Object(CakeRequest))
-#8 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NotesController), Object(CakeRequest), Object(CakeResponse))
-#11 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#12 {main}
-2021-06-21 18:29:58 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:33:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'class' => 'IndexController',
-  'plugin' => NULL,
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
 )
-Request URL: /index
+Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 18:58:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:36:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
 )
-Request URL: /css/task.css
+Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 18:58:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:37:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
 )
-Request URL: /css/task.css
+Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 18:58:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:37:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
 )
-Request URL: /css/task.css
+Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:06:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-06-30 16:37:19 Error: [MissingTableException] Table tasks for model Task was not found in datasource default.
 Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'default',
 )
-Request URL: /css/task.css
+Request URL: /Tasks/index
 Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:06:44 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:06:44 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:07:43 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:07:44 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:07:44 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:08:11 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:08:11 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:08:11 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:08:37 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:08:37 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:08:38 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:09:16 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:09:16 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:09:16 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:09:28 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:09:28 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:09:29 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:37 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:41 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-21 19:16:53 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:53 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:53 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:16:56 Error: [MissingControllerException] Controller class TaskController could not be found.
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#1 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#2 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#3 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#4 [internal function]: TasksController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-06-30 16:37:37 Error: [MissingControllerException] Controller class TaskController could not be found.
 Exception Attributes: array (
   'class' => 'TaskController',
   'plugin' => NULL,
 )
-Request URL: /Task/done/10
+Request URL: /Task/index
 Stack Trace:
 #0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2021-06-21 19:17:00 Error: [MissingControllerException] Controller class CssController could not be found.
+2021-06-30 16:39:21 Error: [MissingTableException] Table mails for model Mail was not found in datasource default.
 Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
+  'table' => 'mails',
+  'class' => 'Mail',
+  'ds' => 'default',
 )
-Request URL: /css/task.css
+Request URL: /Mails/create
 Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:17:01 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:17:26 Error: [MissingActionException] Action Tasks::edit10() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit10',
-)
-Request URL: /Tasks/edit10
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-21 19:17:45 Error: [MissingControllerException] Controller class TaskController could not be found.
-Exception Attributes: array (
-  'class' => 'TaskController',
-  'plugin' => NULL,
-)
-Request URL: /Task/done/13
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:08 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:08 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:09 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:11 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:11 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:59 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:18:59 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:19:41 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:19:41 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:19:56 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:19:56 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:20:18 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-21 19:20:19 Error: [MissingControllerException] Controller class CssController could not be found.
-Exception Attributes: array (
-  'class' => 'CssController',
-  'plugin' => NULL,
-)
-Request URL: /css/task.css
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-22 19:15:19 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:27:53 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:27:57 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:37:15 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/html/app/Controller/TasksController.php, line 82]
-2021-06-22 19:37:15 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 82)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 82, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 82, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 19:38:27 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/html/app/Controller/TasksController.php, line 82]
-2021-06-22 19:38:27 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 82)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 82, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 82, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 19:38:46 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:39:00 Error: [MissingActionException] Action Tasks::edit13() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit13',
-)
-Request URL: /Tasks/edit13
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:39:15 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:45:43 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:46:23 Error: [MissingActionException] Action Tasks::edit12() could not be found.
-Exception Attributes: array (
-  'controller' => 'Tasks',
-  'action' => 'edit12',
-)
-Request URL: /Tasks/edit12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
-#2 /var/www/html/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 {main}
-2021-06-22 19:47:30 Error: Fatal Error (4): syntax error, unexpected 'post' (T_STRING), expecting ')' in [/var/www/html/app/View/Tasks/edit.ctp, line 1]
-2021-06-22 19:47:30 Error: [FatalErrorException] syntax error, unexpected 'post' (T_STRING), expecting ')'
-Request URL: /Tasks/edit/12
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 1)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 1, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 1, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 20:55:33 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/html/app/Controller/UsersController.php, line 16]
-2021-06-22 20:55:33 Error: [FatalErrorException] syntax error, unexpected '}'
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 16)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 16, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 16, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 20:55:51 Error: Fatal Error (1): Call to a member function is() on null in [/var/www/html/app/Controller/UsersController.php, line 4]
-2021-06-22 20:55:51 Error: [FatalErrorException] Call to a member function is() on null
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 20:56:47 Error: [MissingActionException] Action UsersController::login() could not be found.
-Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'login',
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2021-06-22 20:57:48 Error: [MissingControllerException] Controller class UsersController could not be found.
-Exception Attributes: array (
-  'class' => 'UsersController',
-  'plugin' => NULL,
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#1 {main}
-2021-06-22 20:59:03 Error: [MissingActionException] Action UsersController::login() could not be found.
-Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'login',
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2021-06-22 20:59:42 Error: [MissingActionException] Action UsersController::login() could not be found.
-Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'login',
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2021-06-22 20:59:43 Error: [MissingActionException] Action UsersController::login() could not be found.
-Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'login',
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2021-06-22 20:59:45 Error: [MissingActionException] Action UsersController::login() could not be found.
-Exception Attributes: array (
-  'controller' => 'UsersController',
-  'action' => 'login',
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#1 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
-#2 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#3 {main}
-2021-06-22 20:59:51 Error: Fatal Error (1): Call to a member function is() on null in [/var/www/html/app/Controller/UsersController.php, line 4]
-2021-06-22 20:59:52 Error: [FatalErrorException] Call to a member function is() on null
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 21:01:30 Error: Fatal Error (1): Call to a member function is() on null in [/var/www/html/app/Controller/UsersController.php, line 4]
-2021-06-22 21:01:30 Error: [FatalErrorException] Call to a member function is() on null
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 21:01:31 Error: Fatal Error (1): Call to a member function is() on null in [/var/www/html/app/Controller/UsersController.php, line 4]
-2021-06-22 21:01:31 Error: [FatalErrorException] Call to a member function is() on null
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 21:01:49 Error: [MissingViewException] View file "/var/www/html/app/View/Users/login.ctp" is missing.
-Exception Attributes: array (
-  'file' => '/var/www/html/app/View/Users/login.ctp',
-)
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
-#1 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
-#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
-#4 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2021-06-22 21:05:52 Error: Fatal Error (64): Cannot redeclare class Task in [/var/www/html/app/Model/User.php, line 4]
-2021-06-22 21:05:52 Error: [FatalErrorException] Cannot redeclare class Task
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 21:20:13 Error: Fatal Error (64): Cannot redeclare class Task in [/var/www/html/app/Model/User.php, line 4]
-2021-06-22 21:20:13 Error: [FatalErrorException] Cannot redeclare class Task
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 21:21:05 Error: Fatal Error (1): Call to a member function is() on null in [/var/www/html/app/Controller/UsersController.php, line 4]
-2021-06-22 21:21:05 Error: [FatalErrorException] Call to a member function is() on null
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-22 21:22:32 Error: Fatal Error (1): Call to a member function is() on null in [/var/www/html/app/Controller/UsersController.php, line 4]
-2021-06-22 21:22:33 Error: [FatalErrorException] Call to a member function is() on null
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 4)
-#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 4, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-23 17:40:57 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/html/app/Controller/AppController.php, line 49]
-2021-06-23 17:40:57 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
-Request URL: /users/login
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 49)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 49, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 49, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-23 17:50:27 Error: Fatal Error (4): syntax error, unexpected ')', expecting function (T_FUNCTION) in [/var/www/html/app/Controller/AppController.php, line 58]
-2021-06-23 17:50:27 Error: [FatalErrorException] syntax error, unexpected ')', expecting function (T_FUNCTION)
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 58)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 58, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 58, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-23 18:08:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Post,id' in 'where clause'
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Task`.`...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Task`.`...', Array, Array)
-#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Task`.`...', false)
-#4 /var/www/html/lib/Cake/Model/Model.php(2903): DboSource->read(Object(Task), Array)
-#5 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
-#6 /var/www/html/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate('Task', Array, Array)
-#8 /var/www/html/app/Controller/TasksController.php(28): Controller->paginate('Task', Array)
-#9 [internal function]: TasksController->index()
-#10 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#13 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#14 {main}
-2021-06-23 18:14:39 Error: [MissingHelperException] Helper class PaginatarHelper could not be found.
-Exception Attributes: array (
-  'class' => 'PaginatarHelper',
-  'plugin' => false,
-)
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Paginatar')
-#1 /var/www/html/lib/Cake/View/View.php(824): HelperCollection->__isset('Paginatar')
-#2 /var/www/html/app/View/Tasks/index.ctp(19): View->__get('Paginatar')
-#3 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
-#4 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
-#5 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
-#6 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
-#7 /var/www/html/app/Controller/TasksController.php(32): Controller->render('index')
-#8 [internal function]: TasksController->index()
-#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#13 {main}
-2021-06-23 18:21:10 Error: [MissingHelperException] Helper class PaginatarHelper could not be found.
-Exception Attributes: array (
-  'class' => 'PaginatarHelper',
-  'plugin' => false,
-)
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Paginatar')
-#1 /var/www/html/lib/Cake/View/View.php(824): HelperCollection->__isset('Paginatar')
-#2 /var/www/html/app/View/Tasks/index.ctp(19): View->__get('Paginatar')
-#3 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
-#4 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
-#5 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
-#6 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
-#7 /var/www/html/app/Controller/TasksController.php(32): Controller->render('index')
-#8 [internal function]: TasksController->index()
-#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#13 {main}
-2021-06-23 18:24:23 Error: [MissingHelperException] Helper class PaginatarHelper could not be found.
-Exception Attributes: array (
-  'class' => 'PaginatarHelper',
-  'plugin' => false,
-)
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Paginatar')
-#1 /var/www/html/lib/Cake/View/View.php(824): HelperCollection->__isset('Paginatar')
-#2 /var/www/html/app/View/Tasks/index.ctp(19): View->__get('Paginatar')
-#3 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
-#4 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
-#5 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
-#6 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
-#7 /var/www/html/app/Controller/TasksController.php(32): Controller->render('index')
-#8 [internal function]: TasksController->index()
-#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#13 {main}
-2021-06-24 19:06:09 Error: [MissingHelperException] Helper class PaginatarHelper could not be found.
-Exception Attributes: array (
-  'class' => 'PaginatarHelper',
-  'plugin' => false,
-)
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Paginatar')
-#1 /var/www/html/lib/Cake/View/View.php(824): HelperCollection->__isset('Paginatar')
-#2 /var/www/html/app/View/Tasks/index.ctp(19): View->__get('Paginatar')
-#3 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
-#4 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
-#5 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
-#6 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
-#7 /var/www/html/app/Controller/TasksController.php(32): Controller->render('index')
-#8 [internal function]: TasksController->index()
-#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#13 {main}
-2021-06-24 19:06:16 Error: [MissingHelperException] Helper class PaginatarHelper could not be found.
-Exception Attributes: array (
-  'class' => 'PaginatarHelper',
-  'plugin' => false,
-)
-Request URL: /Tasks/index
-Stack Trace:
-#0 /var/www/html/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Paginatar')
-#1 /var/www/html/lib/Cake/View/View.php(824): HelperCollection->__isset('Paginatar')
-#2 /var/www/html/app/View/Tasks/index.ctp(19): View->__get('Paginatar')
-#3 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
-#4 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
-#5 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
-#6 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render('index', NULL)
-#7 /var/www/html/app/Controller/TasksController.php(32): Controller->render('index')
-#8 [internal function]: TasksController->index()
-#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#13 {main}
-2021-06-24 19:25:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'limit' in 'where clause'
-Request URL: /Tasks/index/page:2
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Task`.`...', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Task`.`...', Array, Array)
-#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Task`.`...', false)
-#4 /var/www/html/lib/Cake/Model/Model.php(2903): DboSource->read(Object(Task), Array)
-#5 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
-#6 /var/www/html/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
-#7 /var/www/html/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate('Task', Array, Array)
-#8 /var/www/html/app/Controller/TasksController.php(29): Controller->paginate('Task', Array)
-#9 [internal function]: TasksController->index()
-#10 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#13 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#14 {main}
-2021-06-24 19:33:15 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/html/app/Controller/TasksController.php, line 6]
-2021-06-24 19:33:15 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
-Request URL: /Tasks/index/page:2
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 6)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 6, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 6, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-24 19:44:01 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/html/app/Controller/TasksController.php, line 14]
-2021-06-24 19:44:01 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
-Request URL: /Tasks/index/page:2
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 14)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 14, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 14, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-24 19:44:10 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/html/app/Controller/TasksController.php, line 14]
-2021-06-24 19:44:10 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
-Request URL: /Tasks/index/page:2
-Stack Trace:
-#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 14)
-#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 14, Array)
-#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 14, Array)
-#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2021-06-24 20:36:58 Error: [MissingComponentException] Component class TestComponent could not be found.
-Exception Attributes: array (
-  'class' => 'TestComponent',
-  'plugin' => false,
-)
-Request URL: /Tasks
-Stack Trace:
-#0 /var/www/html/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Test', Array)
-#1 /var/www/html/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(TasksController))
-#2 /var/www/html/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
-#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
-#4 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#5 {main}
-2021-06-24 21:00:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sayHello' at line 1
-Request URL: /Tasks/index/page:2
-Stack Trace:
-#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
-#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('sayHello', Array)
-#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('sayHello', Array, Array)
-#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('sayHello', Array, Array)
-#4 /var/www/html/lib/Cake/Model/Model.php(800): DboSource->query('sayHello', Array, Object(Task))
-#5 /var/www/html/app/Controller/TasksController.php(20): Model->__call('sayHello', Array)
-#6 /var/www/html/app/Controller/TasksController.php(20): Task->sayHello()
-#7 [internal function]: TasksController->index()
-#8 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
-#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#1 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#4 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#5 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#7 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#8 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
 #11 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2021-06-30 16:41:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:41:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:42:09 Error: [MissingDatasourceConfigException] The datasource configuration "t" was not found in database.php
+Exception Attributes: array (
+  'config' => 't',
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('t')
+#1 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('t')
+#2 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('t')
+#3 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#4 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#5 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#7 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#8 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#9 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#10 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#11 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#12 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2021-06-30 16:42:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:43:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:43:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:46:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:46:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:46:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:47:23 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:47:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:48:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:48:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection refused',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:49:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection refused',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:49:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('test')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('test')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#5 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#8 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#9 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#10 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#11 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#12 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-06-30 16:51:16 Error: [MissingTableException] Table mails for model Mail was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'mails',
+  'class' => 'Mail',
+  'ds' => 'test',
+)
+Request URL: /Mails/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('mails')
+#1 /var/www/html/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/html/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /var/www/html/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('Mail', 'fields')
+#4 /var/www/html/app/View/Mails/create.ctp(1): FormHelper->create('Mail', Array)
+#5 /var/www/html/lib/Cake/View/View.php(935): include('/var/www/html/a...')
+#6 /var/www/html/lib/Cake/View/View.php(897): View->_evaluate('/var/www/html/a...', Array)
+#7 /var/www/html/lib/Cake/View/View.php(466): View->_render('/var/www/html/a...')
+#8 /var/www/html/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MailsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-06-30 17:09:56 Error: Fatal Error (1): Call to undefined method TopicTest::assetFalse() in [/var/www/html/app/Test/Case/Model/TopicTest.php, line 45]
+2021-06-30 17:09:56 Error: [FatalErrorException] Call to undefined method TopicTest::assetFalse()
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/a...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/a...', 45, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/a...', 45, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-07-01 12:32:54 Error: [MissingTableException] Table tasks for model Task was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'test',
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#1 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#2 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#3 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#4 [internal function]: TasksController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-07-01 12:33:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+  'enabled' => true,
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/html/lib/Cake/Model/Model.php(3477): ConnectionManager::getDataSource('default')
+#3 /var/www/html/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#5 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#6 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#7 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#8 [internal function]: TasksController->index()
+#9 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-07-01 12:34:30 Error: [MissingTableException] Table tasks for model Task was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'test',
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#1 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#2 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#3 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#4 [internal function]: TasksController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-07-01 12:34:42 Error: [MissingControllerException] Controller class Teat.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Teat.phpController',
+  'plugin' => NULL,
+)
+Request URL: /teat.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-01 14:40:39 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/html/app/Test/Case/Controller/TopicsControllerTest.php, line 102]
+2021-07-01 14:40:39 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 102)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 102, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 102, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-07-01 14:40:54 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/html/app/Test/Case/Controller/TopicsControllerTest.php, line 103]
+2021-07-01 14:40:54 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 103, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 103, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-07-01 14:48:13 Error: [MissingTableException] Table tasks for model Task was not found in datasource test.
+Exception Attributes: array (
+  'table' => 'tasks',
+  'class' => 'Task',
+  'ds' => 'test',
+)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Model.php(3499): Model->setSource('tasks')
+#1 /var/www/html/lib/Cake/Model/Model.php(2903): Model->getDataSource()
+#2 /var/www/html/lib/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#3 /var/www/html/app/Controller/TasksController.php(31): Model->find('all', Array)
+#4 [internal function]: TasksController->index()
+#5 /var/www/html/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2021-07-01 14:48:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(2923): PDOStatement->execute()
+#1 /var/www/html/lib/Cake/TestSuite/Fixture/CakeTestFixture.php(289): DboSource->insertMulti('categories', Array, Array)
+#2 /var/www/html/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(212): CakeTestFixture->insert(Object(Mysql))
+#3 /var/www/html/lib/Cake/TestSuite/CakeTestCase.php(80): CakeFixtureManager->load(Object(TopicsControllerTest))
+#4 /var/www/html/app/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(779): CakeTestCase->run(Object(PHPUnit_Framework_TestResult))
+#5 /var/www/html/app/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php(749): PHPUnit_Framework_TestSuite->runTest(Object(TopicsControllerTest), Object(PHPUnit_Framework_TestResult))
+#6 /var/www/html/app/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php(350): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#7 /var/www/html/lib/Cake/TestSuite/CakeTestRunner.php(60): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#8 /var/www/html/lib/Cake/TestSuite/CakeTestSuiteCommand.php(96): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#9 /var/www/html/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#10 /var/www/html/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#11 /var/www/html/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#12 /var/www/html/app/webroot/test.php(98): CakeTestSuiteDispatcher::run()
+#13 {main}
+2021-07-01 19:36:59 Error: [MissingControllerException] Controller class Tsql.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Tsql.phpController',
+  'plugin' => NULL,
+)
+Request URL: /tsql.php
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-07-02 07:35:42 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/var/www/html/app/View/Sql/index.ctp, line 4]
+2021-07-02 07:35:42 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /sql
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 4, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 4, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-07-02 07:36:15 Error: Fatal Error (1): Call to undefined method App::users() in [/var/www/html/app/Model/User.php, line 2]
+2021-07-02 07:36:15 Error: [FatalErrorException] Call to undefined method App::users()
+Request URL: /sql
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/a...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/a...', 2, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/a...', 2, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
