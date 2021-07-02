@@ -73,7 +73,19 @@ CREATE TABLE `topics` (
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` tinytext COLLATE utf8_unicode_ci NOT NULL,
-  `password` tinytext COLLATE utf8_unicode_ci NOT NULL
+  `password` tinytext COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+CREATE TABLE `mails` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `address` tinytext COLLATE utf8_unicode_ci NOT NULL,
+  `subject` tinytext COLLATE utf8_unicode_ci NOT NULL,
+  `message` text COLLATE utf8_unicode_ci NOT NULL,
+  `file` BLOB ,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

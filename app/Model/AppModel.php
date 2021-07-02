@@ -30,4 +30,6 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+  // テストDBに切り替えるための記述
+  var $useDbConfig = "test";
 }

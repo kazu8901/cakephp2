@@ -31,12 +31,60 @@ class TopicFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'title' => 'Lorem ipsum dolor sit amet',
-			'body' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
+			'title' => 'パソコン',
+			'body' => 'あ',
 			'category_id' => 1,
 			'created' => '2021-05-22 14:15:10',
 			'modified' => '2021-05-22 14:15:10'
 		),
+		array(
+			'id' => 2,
+			'title' => 'スマホ',
+			'body' => 'あ',
+			'category_id' => 1,
+			'created' => '2021-05-22 14:15:10',
+			'modified' => '2021-05-22 14:15:10'
+		),
+		array(
+			'id' => 3,
+			'title' => '電話',
+			'body' => 'あ',
+			'category_id' => 1,
+			'created' => '2021-05-22 14:15:10',
+			'modified' => '2021-05-22 14:15:10'
+		),
+		array(
+			'id' => 4,
+			'title' => 'PHP',
+			'body' => 'あ',
+			'category_id' => 1,
+			'created' => '2021-05-22 14:15:10',
+			'modified' => '2021-05-22 14:15:10'
+		),
+		array(
+			'id' => 5,
+			'title' => 'windows',
+			'body' => 'あ',
+			'category_id' => 1,
+			'created' => '2021-05-22 14:15:10',
+			'modified' => '2021-05-22 14:15:10'
+		),
+		array(
+			'id' => 6,
+			'title' => '入門',
+			'body' => 'あ',
+			'category_id' => 1,
+			'created' => '2021-05-22 14:15:10',
+			'modified' => '2021-05-22 14:15:10'
+		),
+		array(
+			'id' => 7,
+			'title' => '寿司',
+			'body' => 'あ',
+			'category_id' => 1,
+			'created' => '2021-05-22 14:15:10',
+			'modified' => '2021-05-22 14:15:10'
+		)
 	);
 
 }
