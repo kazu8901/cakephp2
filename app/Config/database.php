@@ -66,7 +66,7 @@ class DATABASE_CONFIG {
     'persistent' => false,
     'host' => 'db',
     'login' => 'root',
-    'password' => 'root_password',
+    'password' => 'asdf123',
     'database' => 'cakephp_db',
     'prefix' => '',
     'encoding' => 'utf8',
@@ -75,11 +75,11 @@ class DATABASE_CONFIG {
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'host' => 'db-testing',
+		'login' => 'root',
+		'password' => 'asdf1234',
+		'database' => 'test_database',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 }
